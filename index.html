@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <header>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="game.js"></script>
+    </header>
+    <body>
+	<div class = "title">
+		<h1>Rock Paper OR Scissors</h1>
+	</div>
+	<div class = "container">
+	    <img class = "player" src="rock.png" onclick="rock()">
+	    <img class = "papers" src="paper.png" onclick="paper()">
+	    <img class = "icon" src="scissors.png" onclick="scissors()">
+	</div>  
+	<div class = "announce">
+		<h3 id = "announcer"></h3>
+	</div>
+	<div class = "container">
+
+	    <img class = "player" src="you.png">
+	    <img class = "speechplayer" id = "speechbubble" src="speech.png">
+	    <div id = "speechplayertext" class ="speechplayertext">Yeah</div>
+	    <span class = "score" id = "score">You: 0 Computer: 0</span>
+	    <img class = "speechcomputer" id = "speechbubblecomp" src="speech.png">
+	    <div id = "speechcomputertext" class ="speechcomputertext">Yeah</div>
+  	    <img class = "icon" src="computer.png">
+	</div>  
+    </body>
+
+</html>
