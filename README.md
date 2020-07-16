@@ -1,6 +1,5 @@
-Rock Paper Scissors website for the Odin Project
-
-Click the Icons and it will compare with the computers solution. After
-5 Rounds it will tell if you won, the computer won or there was a tie.
+# Rock Paper Scissors
+## Funciton
+Displays images for each of the associate choices, when the button is clicked it plays out based on rock paper scissors rules.
 
 
